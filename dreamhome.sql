@@ -29,12 +29,12 @@ CREATE TABLE staff
  branchNo char(5)
 );
 
-INSERT INTO staff VALUES('SL21','John','White','Manager','M','1965-10-01',30000,'B005');
-INSERT INTO staff VALUES('SG37','Ann','Beech','Assistant','F','1980-11-10',12000,'B003');
-INSERT INTO staff VALUES('SG14','David','Ford','Supervisor','M','1978-03-24',18000,'B003');
-INSERT INTO staff VALUES('SA9','Mary','Howe','Assistant','F','1990-02-19',9000,'B007');
-INSERT INTO staff VALUES('SG5','Susan','Brand','Manager','F','1960-06-03',24000,'B003');
-INSERT INTO staff VALUES('SL41','Julie','Lee','Assistant','F','1985-06-13',9000,'B005');
+INSERT INTO staff VALUES('SL21','John','White','Manager','M','1945-10-01',30000,'B005');
+INSERT INTO staff VALUES('SG37','Ann','Beech','Assistant','F','1960-11-10',12000,'B003');
+INSERT INTO staff VALUES('SG14','David','Ford','Supervisor','M','1958-03-24',18000,'B003');
+INSERT INTO staff VALUES('SA9','Mary','Howe','Assistant','F','1970-02-19',9000,'B007');
+INSERT INTO staff VALUES('SG5','Susan','Brand','Manager','F','1940-06-03',24000,'B003');
+INSERT INTO staff VALUES('SL41','Julie','Lee','Assistant','F','1965-06-13',9000,'B005');
 
 DROP TABLE IF EXISTS privateOwner;
 CREATE TABLE privateOwner
@@ -96,11 +96,11 @@ CREATE TABLE  viewing
  viewDate date,
  comment varchar(15)
 );
-INSERT INTO viewing VALUES('CR56','PA14','2015-05-24','too small');
-INSERT INTO viewing VALUES('CR76','PG4','2015-04-20','too remote');
-INSERT INTO viewing VALUES('CR56','PG4','2015-05-26','');
-INSERT INTO viewing VALUES('CR62','PA14','2015-05-14','no dining room');
-INSERT INTO viewing VALUES('CR56','PG36','2015-04-28','');
+INSERT INTO viewing VALUES('CR56','PA14','2004-05-24','too small');
+INSERT INTO viewing VALUES('CR76','PG4','2004-04-20','too remote');
+INSERT INTO viewing VALUES('CR56','PG4','2004-05-26','');
+INSERT INTO viewing VALUES('CR62','PA14','2004-05-14','no dining room');
+INSERT INTO viewing VALUES('CR56','PG36','2004-04-28','');
 
 DROP TABLE IF EXISTS registration;
 CREATE TABLE registration
@@ -110,7 +110,7 @@ CREATE TABLE registration
  dateJoined date
 );
 
-INSERT INTO registration VALUES('CR76','B005','SL41','2015-01-13');
-INSERT INTO registration VALUES('CR56','B003','SG37','2014-04-13');
-INSERT INTO registration VALUES('CR74','B003','SG37','2013-11-16');
-INSERT INTO registration VALUES('CR62','B007','SA9','2014-03-07');
+INSERT INTO registration VALUES('CR76','B005','SL41','2004-01-13');
+INSERT INTO registration VALUES('CR56','B003','SG37','2003-04-13');
+INSERT INTO registration VALUES('CR74','B003','SG37','2002-11-16');
+INSERT INTO registration VALUES('CR62','B007','SA9','2003-03-07');
